@@ -80,4 +80,4 @@ Claude (análisis y dashboard) · Excel / Google Sheets (validación) · Termina
 
 ---
 
-**Iara Lourdes Bueno** · Ingeniería Informática · Big Data Analytics · Septiembre 2026
+**Iara Lourdes Bueno** · Septiembre 2026
