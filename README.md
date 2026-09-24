@@ -2,7 +2,7 @@
 
 Análisis de retención sobre **6,8 millones de jugadas** del juego de ritmo osu!, para responder una pregunta de negocio concreta: qué características de un mapa hacen que los jugadores comunes lo vuelvan a jugar en lugar de abandonarlo.
 
-📊 **[Ver el dashboard interactivo](https://iarabueno.github.io/osu-rejuego-analisis/)**
+📊 **[Ver el dashboard interactivo](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/)**
 
 ---
 
