@@ -6,7 +6,7 @@ Iara Lourdes Bueno · Big Data Analytics · Desafío individual optativo (Opció
 Este documento muestra el recorrido completo del trabajo siguiendo CRISP-DM: la conexión con los datos, su transformación, la exploración, la validación humana de los hallazgos y el resultado final. Cada figura indica qué muestra y en qué etapa se obtuvo.
 
 - **Conversación compartida (análisis, dashboard e informe):** https://claude.ai/share/b302c03a-3173-4cd0-91ab-83719306adbd
-- **Dashboard:** archivo HTML único en la carpeta [`docs/`](../docs/). Es una foto fija de los datos y no se conecta en línea.
+- **Dashboard:** archivo HTML único en la carpeta [`docs/`](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/). Es una foto fija de los datos y no se conecta en línea.
 
 ---
 
