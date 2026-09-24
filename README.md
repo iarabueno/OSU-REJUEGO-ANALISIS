@@ -68,7 +68,8 @@ El trabajo siguió la metodología **CRISP-DM**, con análisis asistido por IA (
 
 | Carpeta | Contenido |
 |---|---|
-| `docs/` | Dashboard interactivo (HTML único, foto fija de septiembre 2026) |
+| Branch `docs` | Dashboard interactivo publicado en GitHub Pages ([ver en línea](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/)) |
+| `informe/` | Informe ejecutivo |
 | `evidencia/` | Evidencia del proceso por etapa de CRISP-DM |
 | `validacion/` | Planillas de validación en Excel |
 | `prompt/` | Prompt utilizado para el análisis |
