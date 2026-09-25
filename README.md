@@ -1,6 +1,6 @@
 # osu!: ¿qué mapas se rejuegan?
 
-Análisis de retención sobre **6,8 millones de jugadas** del juego de ritmo osu!, para responder una pregunta de negocio concreta: qué características de un mapa hacen que los jugadores comunes lo vuelvan a jugar en lugar de abandonarlo.
+Análisis de rejuego sobre **6,8 millones de jugadas** del juego de ritmo osu!, para responder una pregunta de negocio concreta: qué características de un mapa hacen que los jugadores comunes lo vuelvan a jugar en lugar de abandonarlo.
 
 📊 **[Ver el dashboard interactivo](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/)**
 
@@ -8,11 +8,13 @@ Análisis de retención sobre **6,8 millones de jugadas** del juego de ritmo osu
 
 ## El problema
 
-En osu!, cada canción jugable es un **mapa** y su dificultad se mide en **estrellas (★)**. El equipo que decide qué mapas entran al ranking oficial necesita saber qué mapas retienen a los jugadores comunes, no solo a los más activos.
+En osu!, cada canción jugable es un **mapa** y su dificultad se mide en **estrellas (★)**. El equipo que decide qué mapas entran al ranking oficial necesita saber qué mapas vuelven a jugar los jugadores comunes, no solo los más activos.
 
 - **Rejuego:** el jugador jugó el mapa 2 veces o más.
 - **Abandono:** lo jugó una sola vez.
 - **Jugadores comunes:** toda la muestra menos el 10% más activo, que se analizó aparte como comparación.
+
+> **Importante:** el rejuego incluye reintentos inmediatos. Mide cuántas veces se juega un mapa, no necesariamente si el jugador vuelve días después.
 
 ## Los datos
 
@@ -32,6 +34,16 @@ El trabajo siguió la metodología **CRISP-DM**, con análisis asistido por IA (
 4. **Evaluación:** recálculo independiente de los resultados clave en Excel.
 5. **Despliegue:** dashboard interactivo e informe ejecutivo.
 
+## Mi rol
+
+El análisis se hizo con Claude como asistente. Las decisiones y los controles fueron míos:
+
+- **Definí el problema:** la pregunta de negocio, qué cuenta como rejuego y abandono, y quiénes son los jugadores comunes.
+- **Fijé los criterios de análisis:** al menos 30 jugadores por mapa, comparar comunes con el top 10% solo en mapas con 30 o más en ambos grupos, ajustar la aprobación por dificultad y tratar como irrelevantes las diferencias menores a 2 puntos.
+- **Revisé cada etapa de CRISP-DM** antes de avanzar a la siguiente.
+- **Audité los resultados:** detecté un mapa excluido sin aviso, un KPI del dashboard que contradecía lo acordado y dos porcentajes del informe que no habían pasado validación. Pedí corregirlos y documentarlos.
+- **Validé por mi cuenta:** recalculé resultados clave en Excel y corrí el script completo en mi computadora desde los datos crudos.
+
 ## KPIs
 
 | KPI | Valor |
@@ -43,8 +55,8 @@ El trabajo siguió la metodología **CRISP-DM**, con análisis asistido por IA (
 ## Hallazgos
 
 1. **La dificultad divide a dos públicos.** Los jugadores comunes rejuegan más los mapas de 4–5★ (69,8%) y por encima de 5★ su rejuego empieza a bajar, mientras que el del 10% más activo sigue subiendo.
-2. **Los mapas cortos retienen más,** incluso comparando mapas de igual dificultad: los de menos de 1 minuto tienen 4,8 puntos más de rejuego que lo esperable para sus estrellas.
-3. **1.146 mapas son más difíciles de lo que dicen sus estrellas:** se rejuegan mucho pero se pasan mucho menos de lo esperable, y suelen ser más largos.
+2. **Los mapas cortos se rejuegan más,** incluso comparando mapas de igual dificultad: los de menos de 1 minuto tienen 4,8 puntos más de rejuego que lo esperable para sus estrellas.
+3. **1.146 mapas parecen más difíciles de lo que dicen sus estrellas:** se rejuegan mucho pero se pasan mucho menos de lo esperable, y suelen ser más largos.
 
 ## Recomendaciones
 
@@ -86,9 +98,8 @@ El script termina con una verificación automática que compara seis resultados 
 
 ## Herramientas
 
-Claude (análisis y dashboard) · Python con pandas y SciPy (script reproducible) · Excel / Google Sheets (validación) · Terminal de macOS (descarga y conteo) · HTML + JavaScript (dashboard)
+Claude (ejecución del análisis, código y dashboard, con mi revisión en cada etapa) · Python con pandas y SciPy (script reproducible) · Excel / Google Sheets (validación) · Terminal de macOS (descarga y conteo) · HTML + JavaScript (dashboard)
 
 ---
 
 **Iara Lourdes Bueno** · Septiembre 2026
-
