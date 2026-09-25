@@ -2,7 +2,7 @@
 
 Iara Lourdes Bueno · Big Data Analytics · Septiembre 2026
 
-📊 [Ver el dashboard interactivo](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/) · 📄 [Evidencia del proceso](../evidencia/evidencia_del_proceso.md)
+📊 [Ver el dashboard interactivo](https://iarabueno.github.io/osu-rejuego-analisis/) · 📄 [Evidencia del proceso](../evidencia/evidencia_del_proceso.md)
 
 ---
 
