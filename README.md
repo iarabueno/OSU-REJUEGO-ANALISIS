@@ -42,7 +42,7 @@ El trabajo siguió la metodología **CRISP-DM**, con análisis asistido por IA (
 
 ## Hallazgos
 
-1. **La dificultad divide a dos públicos.** Los jugadores comunes rejuegan más los mapas de 4–5★ (69,8%) y sueltan los de más de 5★; el 10% más activo los sigue jugando.
+1. **La dificultad divide a dos públicos.** Los jugadores comunes rejuegan más los mapas de 4–5★ (69,8%) y por encima de 5★ su rejuego empieza a bajar, mientras que el del 10% más activo sigue subiendo.
 2. **Los mapas cortos retienen más,** incluso comparando mapas de igual dificultad: los de menos de 1 minuto tienen 4,8 puntos más de rejuego que lo esperable para sus estrellas.
 3. **1.146 mapas son más difíciles de lo que dicen sus estrellas:** se rejuegan mucho pero se pasan mucho menos de lo esperable, y suelen ser más largos.
 
@@ -91,3 +91,4 @@ Claude (análisis y dashboard) · Python con pandas y SciPy (script reproducible
 ---
 
 **Iara Lourdes Bueno** · Septiembre 2026
+
