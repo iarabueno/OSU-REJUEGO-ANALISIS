@@ -1,4 +1,4 @@
-# osu!: ¿qué mapas se rejuegan?"
+# osu!: ¿qué mapas se rejuegan?
 
 Análisis de retención sobre **6,8 millones de jugadas** del juego de ritmo osu!, para responder una pregunta de negocio concreta: qué características de un mapa hacen que los jugadores comunes lo vuelvan a jugar en lugar de abandonarlo.
 
