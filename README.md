@@ -2,7 +2,7 @@
 
 Análisis de rejuego sobre **6,8 millones de jugadas** del juego de ritmo osu!, para responder una pregunta de negocio concreta: qué características de un mapa hacen que los jugadores comunes lo vuelvan a jugar en lugar de abandonarlo.
 
-📊 **[Ver el dashboard interactivo](https://iarabueno.github.io/osu-rejuego-analisis/)**
+📊 **[Ver el dashboard interactivo](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/)**
 
 ---
 
@@ -81,7 +81,7 @@ El análisis se hizo con Claude como asistente. Las decisiones y los controles f
 
 | Carpeta | Contenido |
 |---|---|
-| Branch `docs` | Dashboard interactivo publicado en GitHub Pages ([ver en línea](https://iarabueno.github.io/osu-rejuego-analisis/)) |
+| Branch `docs` | Dashboard interactivo publicado en GitHub Pages ([ver en línea](https://iarabueno.github.io/OSU-REJUEGO-ANALISIS/) |
 | `informe/` | Informe ejecutivo |
 | `evidencia/` | Evidencia del proceso por etapa de CRISP-DM |
 | `validacion/` | Planillas de validación en Excel |
